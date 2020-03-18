@@ -1,5 +1,5 @@
 from django.shortcuts import render ,redirect
-from django.contrib.auth import login , authenticate
+from django.contrib.auth import login , authenticate ,logout
 from django.contrib import messages
 
 
@@ -24,3 +24,8 @@ def login_user(request):
         else:
             messages.info(request, "your username or password is incorrect , please try again")
             return redirect("login_user")
+
+def logout_user(request) :
+    if request.method == "POST" :
+        logout(request)
+        return redirect('home')

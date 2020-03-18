@@ -3,20 +3,28 @@
 {% block content %}
     <div class="container" style="text-align: center;">
 
-        <h1 style="color: white">Welcome <span style="color: red;">{{ user.first_name }} {{ user.last_name }}</span> to our Home Page</h1>
+        <h1 style="color: white">Welcome
+            <span style="color: red;">
+                {{ user.first_name }} {{ user.last_name }}
+            </span>
+            to our Home Page
+        </h1>
         <br>
         <br>
         {% if user.is_authenticated  %}
-            <a href="#">
+
+            <form method="post" action="{% url 'logout_user' %}" >
                 <button type="button" class="btn btn-secondary">Logout</button>
-            </a>
+            </form>
+
         {% else %}
-            <a href="#">
+            <form method="post" action="#" >
                 <button type="button" class="btn btn-primary">Sign Up</button>
-            </a>
-            <a href="#">
+            </form>
+
+            <form method="post" action="{% url 'login_user' %}" >
                  <button type="button" class="btn btn-success">Login</button>
-            </a>
+            </form>
         {% endif %}
 </div>
 {% endblock %}
