@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3a3d7683-39b9-4446-8b79-e6f5a1822d63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,10 +35,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/user_auth" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/user_auth/templates/user_auth" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ProBook\Desktop\userAuthentication-project\user_auth\templates\user_auth" />
       <recent name="C:\Users\ProBook\Desktop\userAuthentication-project\user_auth" />
     </key>
   </component>
@@ -75,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584534788431</updated>
-      <workItem from="1584534790564" duration="548000" />
+      <workItem from="1584534790564" duration="1093000" />
     </task>
     <servers />
   </component>
