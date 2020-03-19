@@ -6,6 +6,13 @@
         <span class="login100-form-title p-b-41">
         Account Login
         </span>
+        {% if messages %}
+            {% for message in messages  %}
+                <div class="alert alert-danger" role="alert">
+                    {{message}}
+                </div>
+            {% endfor %}
+        {% endif %}
         <form  method="post" action="{% url 'login_user' %}" class="login100-form validate-form p-b-33 p-t-5">
             {% csrf_token %}
 
