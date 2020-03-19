@@ -13,17 +13,21 @@
         <br>
         {% if user.is_authenticated  %}
 
-            <form method="post" action="{% url 'logout_user' %}" >
-                <button type="button" class="btn btn-secondary">Logout</button>
+            <form method="post" action="{% url 'logout_user' %}" style="display: inline">
+                {% csrf_token %}
+
+                <button type="submit" class="btn btn-secondary">Logout</button>
             </form>
 
         {% else %}
-            <form method="post" action="#" >
-                <button type="button" class="btn btn-primary">Sign Up</button>
+            <form method="get" action="#" style="display: inline">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-primary">Sign Up</button>
             </form>
 
-            <form method="post" action="{% url 'login_user' %}" >
-                 <button type="button" class="btn btn-success">Login</button>
+            <form method="get" action="{% url 'login_user' %}" style="display: inline">
+                {% csrf_token %}
+                 <button type="submit" class="btn btn-success">Login</button>
             </form>
         {% endif %}
 </div>
