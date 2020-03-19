@@ -1,0 +1,61 @@
+{% extends 'user_auth/base.html' %}
+
+{% block content%}
+
+    <div class="wrap-login100 p-t-30 p-b-50">
+        <span class="login100-form-title p-b-41">
+        Account sign up
+        </span>
+        <form  method="post" action="{% url 'sign_up_user' %}" class="login100-form validate-form p-b-33 p-t-5">
+            {% csrf_token %}
+            <div class="row">
+                <div class="col-md-6">
+
+
+                    <div class="wrap-input100 validate-input" data-validate = "Enter first name">
+                        <input class="input100" type="text" name="first_name" placeholder="first name">
+                        <span class="focus-input100" data-placeholder="&#xe82a;"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="wrap-input100 validate-input" data-validate = "Enter last name">
+                        <input class="input100" type="text" name="last_name" placeholder="last name">
+                        <span class="focus-input100" data-placeholder="&#xe82a;"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="wrap-input100 validate-input" data-validate = "Enter username">
+                <input class="input100" type="text" name="username" placeholder="User name">
+                <span class="focus-input100" data-placeholder="&#xe82a;"></span>
+            </div>
+            <div class="wrap-input100 validate-input" data-validate = "Enter Email">
+                <input class="input100" type="email" name="email" placeholder="Email">
+                <span class="focus-input100" data-placeholder="&#xe82a;"></span>
+            </div>
+
+            <div class="wrap-input100 validate-input" data-validate="Enter password">
+                <input class="input100" type="password" name="password1" placeholder="Password">
+                <span class="focus-input100" data-placeholder="&#xe80f;"></span>
+            </div>
+
+            <div class="wrap-input100 validate-input" data-validate="Enter the password again">
+                <input class="input100" type="password" name="password2" placeholder="Password Conform">
+                <span class="focus-input100" data-placeholder="&#xe80f;"></span>
+            </div>
+
+            <div class="container-login100-form-btn m-t-32">
+                <button  type="submit" class="login100-form-btn">
+                Sign Up
+                </button>
+            </div>
+            <br>
+            <br>
+
+            <div>
+                <a href="{% url 'login_user' %}" >
+                    <button type="button" class="btn btn-secondary btn-lg btn-block">do u have an account --> Login</button>
+                </a>
+            </div>
+        </form>
+    </div>
+{% endblock%}

@@ -20,7 +20,7 @@
             </form>
 
         {% else %}
-            <form method="get" action="#" style="display: inline">
+            <form method="get" action="{% url 'sign_up_user' %}" style="display: inline">
                 {% csrf_token %}
                 <button type="submit" class="btn btn-primary">Sign Up</button>
             </form>
