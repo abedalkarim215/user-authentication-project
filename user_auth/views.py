@@ -2,10 +2,12 @@ from django.shortcuts import render ,redirect
 from django.contrib.auth import login , authenticate ,logout
 from django.contrib import messages
 from django.contrib.auth.models import User
+import random
 
 
 def home(request) :
     context = {
+        'title' : 'Home'
 
     }
     return render(request,'user_auth/home.html',context)
@@ -13,7 +15,10 @@ def home(request) :
 
 def login_user(request):
     if request.method == "GET":
-        return render(request, 'user_auth/login.html')
+        context = {
+            'title': 'Login'
+        }
+        return render(request, 'user_auth/login.html',context)
 
     elif request.method == "POST":
         user_username = request.POST['username']
@@ -33,7 +38,10 @@ def logout_user(request) :
 
 def sign_up_user(request) :
     if request.method == "GET" :
-        return render(request, 'user_auth/sign_up.html')
+        context = {
+            'title': 'Sign Up'
+        }
+        return render(request, 'user_auth/sign_up.html',context)
     elif request.method == "POST" :
         user_first_name = request.POST['first_name']
         user_last_name = request.POST['last_name']
@@ -67,3 +75,39 @@ def sign_up_user(request) :
         user.save();
         login(request,user)
         return redirect("home")
+
+
+# generate_password function view
+def generate_password(request) :
+    if request.method == "GET" :
+        context = {
+            'title' : 'Password Generator' ,
+            'range' : range(7,31) ,
+
+        }
+        return render(request,'user_auth/generate_password_function/generate_password.html', context)
+    elif request.method == "POST" :
+        characters = list('abcdefghijklmnopqrstuvwxyz')
+
+        if request.POST.get('uppercase'):
+            characters.extend(list('ABCDEFGHIJKLMNOPQRSTUVWXYZ'))
+        if request.POST.get('special_characters'):
+            characters.extend(list('!@#$%^&*()<>?;.'))
+        if request.POST.get('numbers'):
+            characters.extend(list('0123456789'))
+        if request.POST.get('arabic_letters'):
+            characters.extend(list('ابتثجحخدذرزسشصضطظعغفقكلمنهوي'))
+
+        length = int(request.POST.get('length', 12))
+
+        password_generated = ''
+        for i in range(length):
+            password_generated += random.choice(characters)
+        context =  {
+            'title' : 'the result' ,
+            'password': password_generated
+        }
+
+        return render(request,
+                      'user_auth/generate_password_function/generate_password_result.html',
+                      context)

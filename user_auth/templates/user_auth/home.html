@@ -15,7 +15,6 @@
 
             <form method="post" action="{% url 'logout_user' %}" style="display: inline">
                 {% csrf_token %}
-
                 <button type="submit" class="btn btn-secondary">Logout</button>
             </form>
 

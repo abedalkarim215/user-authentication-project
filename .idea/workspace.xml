@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="3a3d7683-39b9-4446-8b79-e6f5a1822d63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/sign_up.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/sign_up.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +52,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ProBook\Desktop\project DONE\userAuthentication-project\user_auth\templates" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ProBook\Desktop\userAuthentication-project\user_auth\templates\user_auth" />
       <recent name="C:\Users\ProBook\Desktop\userAuthentication-project\user_auth" />
@@ -88,7 +97,8 @@
       <updated>1584534788431</updated>
       <workItem from="1584534790564" duration="2590000" />
       <workItem from="1584537421493" duration="5328000" />
-      <workItem from="1584635746270" duration="1681000" />
+      <workItem from="1584635746270" duration="2075000" />
+      <workItem from="1584707859737" duration="5843000" />
     </task>
     <servers />
   </component>
