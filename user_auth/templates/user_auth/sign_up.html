@@ -1,11 +1,10 @@
 {% extends 'user_auth/base.html' %}
 
 {% block content%}
-
-            <div class="wrap-login100 p-t-30 p-b-50">
-                <span class="login100-form-title p-b-41">
-                Account sign up
-                </span>
+                  <h1 style="color: moccasin;text-align: center" >
+                         Create Account
+                  </h1>
+                    <br>
                 {% if messages %}
                     {% for message in messages  %}
                         <div class="alert alert-danger" role="alert">
@@ -69,5 +68,4 @@
                           </div>
                       </div>
                   </form>
-            </div>
 {% endblock %}
