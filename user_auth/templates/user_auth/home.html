@@ -26,11 +26,14 @@
             </p>
             <hr class="my-4">
             <p class="lead" style="text-align: center">
-                <form method="post" action="{% url 'logout_user' %}" style="display: block;text-align: center;background-color: #e9ecef;border: none;padding: 3px;">
+                <form method="post" action="{% url 'logout_user' %}" style="display: inline;text-align: center;background-color: #e9ecef;border: none;padding: 3px;">
                     {% csrf_token %}
                     <button type="submit" class="btn btn-primary btn-lg">Logout</button>
                 </form>
-                <form method="post" action="{% url 'delete_account' user.id %}" style="display: block;text-align: center;background-color: #e9ecef;border: none;padding: 3px;">
+                <a style="padding: 10px;font-size: 20px" href="{% url 'change_password' %}" class="btn btn-primary">
+                    Change The password
+                </a>
+                <form method="post" action="{% url 'delete_account' user.id %}" style="display: inline;text-align: center;background-color: #e9ecef;border: none;padding: 3px;">
                     {% csrf_token %}
                     <button type="submit" class="btn btn-danger btn-lg">delete my account</button>
                 </form>

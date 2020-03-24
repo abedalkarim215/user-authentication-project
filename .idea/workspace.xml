@@ -4,7 +4,11 @@
     <list default="true" id="3a3d7683-39b9-4446-8b79-e6f5a1822d63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/generate_password_function/generate_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/generate_password_function/generate_password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/generate_password_function/generate_password_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/generate_password_function/generate_password_result.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/sign_up.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/sign_up.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_auth/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_auth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/views.py" afterDir="false" />
     </list>
@@ -101,7 +105,7 @@
       <workItem from="1584707859737" duration="7033000" />
       <workItem from="1584792017357" duration="8995000" />
       <workItem from="1584819565065" duration="967000" />
-      <workItem from="1585053644594" duration="1023000" />
+      <workItem from="1585053644594" duration="7027000" />
     </task>
     <servers />
   </component>
