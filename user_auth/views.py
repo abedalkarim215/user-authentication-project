@@ -1,8 +1,10 @@
-from django.shortcuts import render ,redirect
+from django.shortcuts import render ,redirect , get_object_or_404
 from django.contrib.auth import login , authenticate ,logout
 from django.contrib import messages
 from django.contrib.auth.models import User
 import random
+from django.contrib.auth.decorators import login_required
+
 
 
 def home(request) :
@@ -31,6 +33,7 @@ def login_user(request):
             messages.info(request, "your username or password is incorrect , please try again")
             return redirect("login_user")
 
+@login_required
 def logout_user(request) :
     if request.method == "POST" :
         logout(request)
@@ -76,6 +79,14 @@ def sign_up_user(request) :
         login(request,user)
         return redirect("home")
 
+
+@login_required
+def delete_account(request,user_id) :
+    user = get_object_or_404(User , pk=user_id)
+    if request.method == "POST" :
+        user.delete()
+        messages.info(request,"Your account was deleted sucssfully")
+        return redirect('home')
 
 # generate_password function view
 def generate_password(request) :

@@ -4,130 +4,9 @@
     <list default="true" id="3a3d7683-39b9-4446-8b79-e6f5a1822d63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/static/user_auth/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/css/util.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/Linearicons-Free-v1.0.0/icon-font.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/less/animated.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/less/bordered-pulled.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/less/core.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/less/fixed-width.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/less/font-awesome.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/less/icons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/less/larger.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/less/list.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/less/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/less/path.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/less/rotated-flipped.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/less/screen-reader.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/less/stacked.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/less/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/scss/_animated.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/scss/_core.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/scss/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/scss/_larger.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/scss/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/scss/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/scss/_path.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/scss/_stacked.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/font-awesome-4.7.0/scss/font-awesome.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/iconic/css/material-design-iconic-font.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/iconic/css/material-design-iconic-font.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/iconic/fonts/Material-Design-Iconic-Font.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/iconic/fonts/Material-Design-Iconic-Font.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/iconic/fonts/Material-Design-Iconic-Font.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/poppins/Poppins-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/poppins/Poppins-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/poppins/Poppins-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/poppins/Poppins-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/poppins/Poppins-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/poppins/Poppins-ExtraBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/poppins/Poppins-ExtraLight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/poppins/Poppins-ExtraLightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/poppins/Poppins-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/poppins/Poppins-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/poppins/Poppins-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/poppins/Poppins-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/poppins/Poppins-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/poppins/Poppins-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/poppins/Poppins-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/poppins/Poppins-SemiBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/poppins/Poppins-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/poppins/Poppins-ThinItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/ubuntu/UFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/ubuntu/Ubuntu-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/ubuntu/Ubuntu-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/ubuntu/Ubuntu-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/ubuntu/Ubuntu-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/ubuntu/Ubuntu-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/ubuntu/Ubuntu-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/ubuntu/Ubuntu-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/fonts/ubuntu/Ubuntu-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/images/bg-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/images/got.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/images/icons/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/animate/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/animsition/css/animsition.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/animsition/css/animsition.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/animsition/js/animsition.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/animsition/js/animsition.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/bootstrap/js/popper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/bootstrap/js/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/bootstrap/js/tooltip.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/countdowntime/countdowntime.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/css-hamburgers/hamburgers.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/css-hamburgers/hamburgers.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/daterangepicker/daterangepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/daterangepicker/daterangepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/daterangepicker/moment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/daterangepicker/moment.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/jquery/jquery-3.2.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/perfect-scrollbar/perfect-scrollbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/perfect-scrollbar/perfect-scrollbar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/select2/select2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/select2/select2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/select2/select2.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/vendor/select2/select2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/sign_up.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/sign_up.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +40,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/user_auth/static/user_auth/images/icons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -220,7 +99,9 @@
       <workItem from="1584537421493" duration="5328000" />
       <workItem from="1584635746270" duration="2075000" />
       <workItem from="1584707859737" duration="7033000" />
-      <workItem from="1584792017357" duration="8110000" />
+      <workItem from="1584792017357" duration="8995000" />
+      <workItem from="1584819565065" duration="967000" />
+      <workItem from="1585053644594" duration="1023000" />
     </task>
     <servers />
   </component>
@@ -249,9 +130,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="120" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1584806594510" />
-    <state x="463" y="128" key="FileChooserDialogImpl" timestamp="1584792011908">
+    <state x="463" y="128" key="FileChooserDialogImpl" timestamp="1584821105938">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="463" y="128" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1584792011908" />
+    <state x="463" y="128" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1584821105938" />
   </component>
 </project>
