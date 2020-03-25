@@ -150,3 +150,11 @@ def generate_password(request) :
         return render(request,
                       'user_auth/generate_password_function/generate_password_result.html',
                       context)
+
+
+#error views
+def error_404(request,exception) :
+    context = {
+
+    }
+    return render(request,'user_auth/errors/error_404.html',context)

@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3a3d7683-39b9-4446-8b79-e6f5a1822d63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/generate_password_function/generate_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/generate_password_function/generate_password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/generate_password_function/generate_password_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/generate_password_function/generate_password_result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userAuthentication/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/userAuthentication/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userAuthentication/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/userAuthentication/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/sign_up.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/sign_up.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_auth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +18,7 @@
       <list>
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -35,7 +32,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
-    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,7 +40,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/user_auth/static/user_auth/images" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -54,8 +51,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ProBook\Desktop\project DONE\userAuthentication-project\user_auth\static\user_auth\images\icons" />
       <recent name="C:\Users\ProBook\Desktop\project DONE\userAuthentication-project\user_auth\static\user_auth\images" />
+      <recent name="C:\Users\ProBook\Desktop\project DONE\userAuthentication-project\user_auth\static\user_auth\images\icons" />
       <recent name="C:\Users\ProBook\Desktop\project DONE\userAuthentication-project\user_auth\static\user_auth\css" />
       <recent name="C:\Users\ProBook\Desktop\userAuthentication-project\user_auth\templates\user_auth" />
       <recent name="C:\Users\ProBook\Desktop\userAuthentication-project\user_auth" />
@@ -105,7 +102,8 @@
       <workItem from="1584707859737" duration="7033000" />
       <workItem from="1584792017357" duration="8995000" />
       <workItem from="1584819565065" duration="967000" />
-      <workItem from="1585053644594" duration="7027000" />
+      <workItem from="1585053644594" duration="12903000" />
+      <workItem from="1585101445952" duration="2612000" />
     </task>
     <servers />
   </component>
@@ -126,6 +124,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="31" key="#Inspections" timestamp="1585102944956">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="31" key="#Inspections/0.0.1366.738@0.0.1366.738" timestamp="1585102944956" />
     <state x="442" y="180" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584792071573">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
