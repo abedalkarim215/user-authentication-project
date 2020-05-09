@@ -130,6 +130,65 @@ def change_password(request) :
             messages.info(request, "Your password was changed sucssfully , please login again")
         return redirect('home')
 
+def edit_information(request,user_id) :
+    if request.method == "GET" :
+        context = {
+
+        }
+        return render(request,"user_auth/home.html",context)
+    elif request.method == "POST" :
+        user = get_object_or_404(User,pk=user_id)
+        user_first_name = request.POST['first_name']
+        user_last_name = request.POST['last_name']
+        user_username = request.POST['username']
+        user_email = request.POST['email']
+        uniqe_username = User.objects.filter(username=user_username)
+        uniqe_email = User.objects.filter(email=user_email)
+        same_username = user.username == user_username
+        same_email = user.email == user_email
+        if (uniqe_username.__len__() == 0) and (uniqe_email.__len__() == 0) :
+            user.first_name = user_first_name
+            user.last_name = user_last_name
+            user.username = user_username
+            user.email = user_email
+            user.save()
+            messages.info(request,"the changes done sucssfully")
+
+        elif (uniqe_username.__len__() == 0) and (uniqe_email.__len__() != 0) :
+            user.first_name = user_first_name
+            user.last_name = user_last_name
+            user.username = user_username
+            user.save()
+            if not same_email :
+                messages.info(request,"the changes done , but the email is alrady taken , try another one !")
+            else :
+                messages.info(request, "the changes done sucssfully")
+        elif (uniqe_username.__len__() != 0) and (uniqe_email.__len__() == 0) :
+            user.first_name = user_first_name
+            user.last_name = user_last_name
+            user.email = user_email
+            user.save()
+            if not same_username :
+                messages.info(request,"the changes done , but the username is alrady taken , try another one !")
+            else :
+                messages.info(request, "the changes done sucssfully")
+
+        else :
+            user.first_name = user_first_name
+            user.last_name = user_last_name
+            user.save()
+            if (not same_username) and (not same_email) :
+                messages.info(request,"the changes done , but the username and email is alrady taken , try another ones!")
+            elif (same_username) and (not same_email) :
+                messages.info(request,"the changes done , but the email is alrady taken , try another one !")
+            elif (not same_username) and (same_email):
+                messages.info(request,"the changes done , but the username is alrady taken , try another one !")
+            else:
+                messages.info(request, "the changes done sucssfully")
+        return redirect("home")
+
+
+
 
 
 

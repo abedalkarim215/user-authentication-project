@@ -10,6 +10,7 @@ urlpatterns = [
     path('sign_up/',sign_up_user,name='sign_up_user'),
     path('delete_account/<int:user_id>/',delete_account,name='delete_account'),
     path('change_password/',change_password,name='change_password'),
+    path('edit/<int:user_id>',edit_information,name='edit_information'),
 
     # urls for Generate Password function
     path('generate_password/', generate_password, name='generate_password'),
