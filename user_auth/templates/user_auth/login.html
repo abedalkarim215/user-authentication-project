@@ -1,18 +1,21 @@
-{% extends 'user_auth/base.html' %}
-
-{% block content%}
-
-        <h1 style="color: moccasin;text-align: center" >
-        Account Login
-        </h1>
-    <br>
-        {% if messages %}
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Account Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        {% comment %}{% if messages %}
             {% for message in messages  %}
                 <div class="alert alert-danger" role="alert">
                     {{message}}
                 </div>
             {% endfor %}
-        {% endif %}
+        {% endif %}{% endcomment %}
                 <form method="post" action="{% url 'login_user' %}">
                     {% csrf_token %}
                       <div class="form-group">
@@ -23,15 +26,19 @@
                         <label for="exampleInputPassword1">Password :</label>
                         <input name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                       </div>
-                    <div style="text-align: center">
-                      <button type="submit" class="btn btn-primary">Login</button>
-                    </div>
                     <hr class="my-4">
                     <div style="text-align: center">
-                        <a href="{% url 'sign_up_user' %}"  style="text-align: center">
-                          <button type="button" class="btn btn-primary">dont have an account --> signUp</button>
-                        </a>
+                      <button style="display: block;width: 100%" type="submit" class="btn btn-primary">Login</button>
+                    </div>
+
+                    <div style="text-align: center;margin: 20px">
+                        <button style="text-align: center;display: block;width: 100%" type="button"  class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal2">
+                            dont have an account --> signUp
+                        </button>
+
                     </div>
                 </form>
-
-{% endblock%}
+      </div>
+    </div>
+  </div>
+</div>

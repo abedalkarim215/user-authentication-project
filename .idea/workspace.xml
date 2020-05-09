@@ -3,8 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="3a3d7683-39b9-4446-8b79-e6f5a1822d63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userAuthentication/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/userAuthentication/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userAuthentication/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/userAuthentication/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/static/user_auth/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/change_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/change_password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/generate_password_function/generate_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/generate_password_function/generate_password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/generate_password_function/generate_password_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/generate_password_function/generate_password_result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/sign_up.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/sign_up.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_auth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/views.py" afterDir="false" />
     </list>
@@ -13,12 +19,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="Python Script" />
         <option value="HTML File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -40,7 +49,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/user_auth/static/user_auth/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -61,7 +70,51 @@
       <recent name="C:\Users\ProBook\Desktop\project DONE\userAuthentication-project\user_auth\templates" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.delete me please">
+    <configuration name="delete me please" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="userAuthentication-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/userAuthentication" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/userAuthentication/delete me please.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="delete me" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="userAuthentication-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/userAuthentication" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/userAuthentication/delete me.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="userAuthentication-project" type="Python.DjangoServer" factoryName="Django server">
       <module name="userAuthentication-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,6 +138,12 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.delete me please" />
+        <item itemvalue="Python.delete me" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -103,7 +162,19 @@
       <workItem from="1584792017357" duration="8995000" />
       <workItem from="1584819565065" duration="967000" />
       <workItem from="1585053644594" duration="12903000" />
-      <workItem from="1585101445952" duration="2612000" />
+      <workItem from="1585101445952" duration="3168000" />
+      <workItem from="1585794031746" duration="784000" />
+      <workItem from="1585794926268" duration="206000" />
+      <workItem from="1585862979629" duration="1469000" />
+      <workItem from="1586115143950" duration="927000" />
+      <workItem from="1586731873631" duration="62000" />
+      <workItem from="1587911114292" duration="4011000" />
+      <workItem from="1588168779042" duration="2334000" />
+      <workItem from="1588205972708" duration="1332000" />
+      <workItem from="1588407664327" duration="57000" />
+      <workItem from="1588780788233" duration="3686000" />
+      <workItem from="1588810610952" duration="1518000" />
+      <workItem from="1588941315537" duration="8707000" />
     </task>
     <servers />
   </component>
@@ -132,13 +203,41 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="442" y="180" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1584792071573" />
-    <state x="413" y="120" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584806594510">
+    <state x="413" y="120" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588806994214">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="413" y="120" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1584806594510" />
-    <state x="463" y="128" key="FileChooserDialogImpl" timestamp="1584821105938">
+    <state x="413" y="120" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1588806994214" />
+    <state x="463" y="128" key="FileChooserDialogImpl" timestamp="1588853476179">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="463" y="128" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1584821105938" />
+    <state x="463" y="128" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1588853476179" />
+    <state width="1323" height="274" key="GridCell.Tab.0.bottom" timestamp="1588853477824">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="274" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1588853477824" />
+    <state width="1323" height="274" key="GridCell.Tab.0.center" timestamp="1588853477824">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="274" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1588853477824" />
+    <state width="1323" height="274" key="GridCell.Tab.0.left" timestamp="1588853477824">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="274" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1588853477824" />
+    <state width="1323" height="274" key="GridCell.Tab.0.right" timestamp="1588853477824">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="274" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1588853477824" />
+    <state x="390" y="198" key="com.intellij.ide.util.TipDialog" timestamp="1588810680139">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="390" y="198" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1588810680139" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1588945646142">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1588945646142" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/userAuthentication_project$delete_me.coverage" NAME="delete me Coverage Results" MODIFIED="1588251263622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/userAuthentication" />
+    <SUITE FILE_PATH="coverage/userAuthentication_project$delete_me_please.coverage" NAME="delete me please Coverage Results" MODIFIED="1588811056449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/userAuthentication" />
   </component>
 </project>

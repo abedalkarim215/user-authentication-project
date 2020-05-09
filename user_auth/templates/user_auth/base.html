@@ -24,11 +24,15 @@
 		</div>
 
 <!--===============================================================================================-->
-	<script src="v{% static 'user_auth/js/jquery-3.4.1.min.js' %}"></script>
+	<script src="{% static 'user_auth/js/jquery-3.4.1.min.js' %}"></script>
 <!--===============================================================================================-->
 	<script src="{% static 'user_auth/js/bootstrap.min.js' %}"></script>
 <!--===============================================================================================-->
 	<script src="{% static 'user_auth/js/jsScript.js' %}"></script>
+
+        {% block js %}
+        {% endblock %}
+
 
 </body>
 </html>

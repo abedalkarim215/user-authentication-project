@@ -3,8 +3,10 @@
 {% block content %}
 
 
+{% include 'user_auth/delete_account.html' %}
+{% include 'user_auth/change_password.html' %}
 
-    <div class="jumbotron">
+    <div class="jumbotron" style="margin-top: -10px">
         <h1 class="display-4">Welcome
             <span style="font-weight: bold" >
                 {{ user.first_name }} {{ user.last_name }}
@@ -30,23 +32,36 @@
                     {% csrf_token %}
                     <button type="submit" class="btn btn-primary btn-lg">Logout</button>
                 </form>
-                <a style="padding: 10px;font-size: 20px" href="{% url 'change_password' %}" class="btn btn-primary">
+            <button style="display:inline;" type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal4">
                     Change The password
-                </a>
-                <form method="post" action="{% url 'delete_account' user.id %}" style="display: inline;text-align: center;background-color: #e9ecef;border: none;padding: 3px;">
-                    {% csrf_token %}
-                    <button type="submit" class="btn btn-danger btn-lg">delete my account</button>
-                </form>
+              </button>
+            <button style="display:inline;" type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#exampleModal3">
+                    delete my account
+              </button>
+
             </p>
         {% else %}
               <hr class="my-4">
               <p>if you have an account please login , if not you can create an account by press the sign up button</p>
                         <br>
                         <br>
+            {% include 'user_auth/login.html' %}
+            {% include 'user_auth/sign_up.html' %}
+
               <p class="lead" style="text-align: center">
-                <a class="btn btn-primary btn-lg" href="{% url 'login_user' %}" role="button">Login</a>
-                <a class="btn btn-primary btn-lg" href="{% url 'sign_up_user' %}" role="button">Sign Up</a>
+
+              <button id="login_botton" style="display:inline;" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModal">
+                    Login
+              </button>
+            <button style="display:inline;" type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal2">
+                    Sign Up
+              </button>
+
               </p>
         {% endif %}
     </div>
+{% endblock %}
+{% block js %}
+    <script>
+    </script>
 {% endblock %}

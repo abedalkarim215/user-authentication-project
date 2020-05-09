@@ -1,21 +1,25 @@
-{% extends 'user_auth/base.html' %}
 
-{% block content%}
-                  <h1 style="color: moccasin;text-align: center" >
-                         Create Account
-                  </h1>
-                    <br>
-                {% if messages %}
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="margin-bottom: 0">
+        <h5 class="modal-title" id="exampleModalLabel">Create Account</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        {% comment %}{% if messages %}
                     {% for message in messages  %}
                         <div class="alert alert-danger" role="alert">
                             {{message}}
                         </div>
                     {% endfor %}
-                {% endif %}
+                {% endif %}{% endcomment %}
 
-                  <form method="post" action="{% url 'sign_up_user' %}" class="px-4 py-3" style="background-color: white;">
+                  <form method="post" action="{% url 'sign_up_user' %}" class="px-4 py-3" style="">
                     {% csrf_token %}
-                      <div style="padding: 30px;padding-right: 50px;padding-left: 20px">
+                      <div style="">
                           <div class="row">
                               <div class="col-md-6">
                                   <div class="form-group" >
@@ -47,8 +51,8 @@
                               </div>
                               <div class="col-md-4">
                                   <a href="{% url 'generate_password' %}" target="_blank">
-                                        <button style="margin-left: 0px;padding-left: 5px" type="button"class="btn btn-primary">
-                                            Generate Pass.
+                                        <button style="margin-left: 0;padding-left: 5px;font-size: 15px;width: 100%" type="button" class="btn btn-primary btn-lg">
+                                            Gen. Pass.
                                         </button>
                                   </a>
                               </div>
@@ -57,15 +61,19 @@
                               <label for="exampleDropdownFormPassword1">Confirm Password :</label>
                               <input name="password2" type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Conform Password">
                         </div>
-                          <div style="text-align: center">
-                                <button style="text-align: center" type="submit" class="btn btn-primary">Sign Up</button>
-                          </div>
                           <hr class="my-4">
-                          <div style="text-align: center">
-                            <a href="{% url 'login_user' %}" style="text-align: center">
-                                <button type="button" class="btn btn-info">do u have an account --> Login</button>
-                            </a>
-                          </div>
+                    <div style="text-align: center">
+                      <button style="display: block;width: 100%" type="submit" class="btn btn-primary">Create Account</button>
+                    </div>
+
+                    <div style="text-align: center;margin: 20px">
+                        <button style="text-align: center;display: block;width: 100%" type="button"  class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                            do u have an account --> Login
+                        </button>
+                    </div>
                       </div>
                   </form>
-{% endblock %}
+      </div>
+    </div>
+  </div>
+</div>

@@ -9,10 +9,4 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 7%;
-}
-form {
-    border: white solid 2px;
-    padding: 50px;
-    background-color: white;
 }
