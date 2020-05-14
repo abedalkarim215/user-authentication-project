@@ -94,8 +94,8 @@ def sign_up_user(request) :
 
 
 @login_required(login_url='login_user')
-def delete_account(request,user_id) :
-    user = get_object_or_404(User , pk=user_id)
+def delete_account(request) :
+    user = get_object_or_404(User , pk=request.user.id)
     if request.method == "POST" :
         text_confirm  = user.username+"-delete my account"
         if request.POST['confirmation'] == text_confirm :
@@ -130,14 +130,14 @@ def change_password(request) :
             messages.info(request, "Your password was changed sucssfully , please login again")
         return redirect('home')
 
-def edit_information(request,user_id) :
+def edit_information(request) :
     if request.method == "GET" :
         context = {
 
         }
         return render(request,"user_auth/home.html",context)
     elif request.method == "POST" :
-        user = get_object_or_404(User,pk=user_id)
+        user = get_object_or_404(User,pk=request.user.id)
         user_first_name = request.POST['first_name']
         user_last_name = request.POST['last_name']
         user_username = request.POST['username']

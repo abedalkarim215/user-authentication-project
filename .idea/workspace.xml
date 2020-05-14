@@ -4,10 +4,14 @@
     <list default="true" id="3a3d7683-39b9-4446-8b79-e6f5a1822d63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/static/user_auth/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/change_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/change_password.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/delete_account.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/delete_account.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/generate_password_function/generate_password_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/generate_password_function/generate_password_result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/edit-information.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/edit-information.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/errors/error_404.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/errors/error_404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/sign_up.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/sign_up.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_auth/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_auth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/views.py" afterDir="false" />
@@ -16,6 +20,20 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -47,7 +65,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/user_auth/static/user_auth/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -57,15 +75,15 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ProBook\Desktop\project DONE\userAuthentication-project\user_auth\static\user_auth\images" />
-      <recent name="C:\Users\ProBook\Desktop\project DONE\userAuthentication-project\user_auth\static\user_auth\images\icons" />
-      <recent name="C:\Users\ProBook\Desktop\project DONE\userAuthentication-project\user_auth\static\user_auth\css" />
-      <recent name="C:\Users\ProBook\Desktop\userAuthentication-project\user_auth\templates\user_auth" />
-      <recent name="C:\Users\ProBook\Desktop\userAuthentication-project\user_auth" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ProBook\Desktop\project DONE\userAuthentication-project\user_auth\templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ProBook\Desktop\project DONE\userAuthentication-project\user_auth\static\user_auth\images" />
+      <recent name="C:\Users\ProBook\Desktop\project DONE\userAuthentication-project\user_auth\static\user_auth\css" />
+      <recent name="C:\Users\ProBook\Desktop\project DONE\userAuthentication-project\user_auth\static\user_auth\images\icons" />
+      <recent name="C:\Users\ProBook\Desktop\userAuthentication-project\user_auth\templates\user_auth" />
+      <recent name="C:\Users\ProBook\Desktop\userAuthentication-project\user_auth" />
     </key>
   </component>
   <component name="RunManager" selected="Python.delete me please">
@@ -173,7 +191,8 @@
       <workItem from="1588780788233" duration="3686000" />
       <workItem from="1588810610952" duration="1518000" />
       <workItem from="1588941315537" duration="8905000" />
-      <workItem from="1589026215107" duration="4911000" />
+      <workItem from="1589026215107" duration="5841000" />
+      <workItem from="1589421638714" duration="10066000" />
     </task>
     <servers />
   </component>
@@ -202,10 +221,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="442" y="180" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1584792071573" />
-    <state x="413" y="120" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588806994214">
+    <state x="413" y="120" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589430706908">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="413" y="120" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1588806994214" />
+    <state x="413" y="120" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1589430706908" />
     <state x="463" y="128" key="FileChooserDialogImpl" timestamp="1588853476179">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -226,10 +245,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="274" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1588853477824" />
-    <state x="390" y="198" key="com.intellij.ide.util.TipDialog" timestamp="1589026223152">
+    <state x="390" y="198" key="com.intellij.ide.util.TipDialog" timestamp="1589421638892">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="390" y="198" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1589026223152" />
+    <state x="390" y="198" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1589421638892" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1588945646142">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

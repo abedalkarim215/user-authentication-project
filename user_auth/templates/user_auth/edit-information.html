@@ -17,7 +17,7 @@
                     {% endfor %}
                 {% endif %}{% endcomment %}
 
-                  <form method="post" action="{% url 'edit_information' request.user.id %}" class="px-4 py-3" style="">
+                  <form method="post" action="{% url 'edit_information' %}" class="px-4 py-3" style="">
                     {% csrf_token %}
                       <div style="">
                           <div class="row">

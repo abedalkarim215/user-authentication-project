@@ -6,15 +6,16 @@
 {% include 'user_auth/delete_account.html' %}
 {% include 'user_auth/change_password.html' %}
 {% include 'user_auth/edit-information.html' %}
+{% include 'user_auth/logout.html' %}
 
-    <div class="jumbotron" style="margin-top: -10px">
+    <div class="jumbotron" style="margin-top: 50px">
         <h1 class="display-4">Welcome
             <span style="font-weight: bold" >
                 {{ user.first_name }} {{ user.last_name }}
             </span> to our Home Page
         </h1>
             {% for message in messages %}
-                <div class="alert alert-danger" role="alert">
+                <div class="alert alert-dark" role="alert">
                     {{message}}
                 </div>
             {% endfor %}
@@ -28,15 +29,14 @@
                 Email : {{ user.email }}<br>
             </p>
             <hr class="my-4">
-            <p class="lead" style="text-align: center">
-                <form method="post" action="{% url 'logout_user' %}" style="display: inline;text-align: center;background-color: #e9ecef;border: none;padding: 3px;">
-                    {% csrf_token %}
-                    <button type="submit" class="btn btn-primary btn-lg">Logout</button>
-                </form>
-            <button style="display:inline;" type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal4">
+            <p class="lead" style="text-align: left">
+            <button style="display:inline;" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModal_logout">
+                    Logout
+              </button>
+            <button style="display:inline;" type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal_change_password">
                     Change The password
               </button>
-            <button style="display:inline;" type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#exampleModal3">
+            <button style="display:inline;" type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#exampleModal_delete_account">
                     delete my account
               </button>
             <button style="display:inline;" type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#exampleModal_edit_information">
@@ -54,10 +54,10 @@
 
               <p class="lead" style="text-align: center">
 
-              <button id="login_botton" style="display:inline;" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModal">
+              <button id="login_botton" style="display:inline;" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModal_login">
                     Login
               </button>
-            <button style="display:inline;" type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal2">
+            <button style="display:inline;" type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal_signup">
                     Sign Up
               </button>
 
