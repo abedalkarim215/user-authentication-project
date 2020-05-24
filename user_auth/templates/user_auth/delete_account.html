@@ -1,5 +1,4 @@
 <!-- Modal -->
-{% if user.is_authenticated %}
 <div class="modal fade" id="exampleModal_delete_account" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -10,12 +9,17 @@
         </button>
       </div>
       <div class="modal-body">
-          <p>this opreation can not undo it , if you sure about deleting your account , please write this text in the input below :<br>
+          <p>this opreation can not undo it , if you sure about deleting your account , please enter your password and write this text in the second input below :<br>
                </p>
-          <p style="color: red;font-size: 20px;text-align: center">{{ request.user.username }}-delete my account</p>
+          <p style="color: red;font-size: 20px;text-align: center">{{ user_.username }}-delete my account</p>
                 <form method="post" action="{% url 'delete_account' %}">
                     {% csrf_token %}
+                    <label> Enter your password : </label>
                       <div class="form-group">
+                        <input name="password_for_deleting_account" type="password" class="form-control" placeholder="Enter the text">
+                      </div>
+                    <label> Enter the text here : </label>
+                    <div class="form-group">
                         <input name="confirmation" type="text" class="form-control" placeholder="Enter the text">
                       </div>
 
@@ -28,4 +32,3 @@
     </div>
   </div>
 </div>
-{% endif %}

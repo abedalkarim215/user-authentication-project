@@ -2,18 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a3d7683-39b9-4446-8b79-e6f5a1822d63" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/userAuthentication-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/userAuthentication-project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/static/user_auth/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/static/user_auth/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/change_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/change_password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/.stylelintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/Gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/dist/maps/pretty-checkbox.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/dist/pretty-checkbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/dist/pretty-checkbox.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/preview.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/src/pretty-checkbox.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/src/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/src/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/src/scss/elements/default/_fill.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/src/scss/elements/default/_outline.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/src/scss/elements/default/_thick.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/src/scss/elements/font-icon/_general.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/src/scss/elements/image/_general.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/src/scss/elements/svg/_general.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/src/scss/elements/switch/_fill.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/src/scss/elements/switch/_general.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/src/scss/elements/switch/_slim.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/src/scss/essentials/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/src/scss/essentials/_keyframes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/src/scss/essentials/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/src/scss/extras/_animation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/src/scss/extras/_bigger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/src/scss/extras/_colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/src/scss/extras/_curve.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/src/scss/extras/_disabled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/src/scss/extras/_locked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/src/scss/extras/_plain.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/src/scss/extras/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/src/scss/extras/_round.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/src/scss/extras/_toggle.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/src/scss/states/_focus.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/src/scss/states/_hover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/src/scss/states/_indeterminate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pretty-checkbox/src/test.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/delete_account.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/delete_account.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/edit-information.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/edit-information.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/errors/error_404.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/errors/error_404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/sign_up.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/sign_up.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_auth/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/generate_password_function/generate_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/generate_password_function/generate_password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_auth/templates/user_auth/generate_password_function/generate_password_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/templates/user_auth/generate_password_function/generate_password_result.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_auth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_auth/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +103,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/user_auth/static/user_auth/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -86,7 +124,7 @@
       <recent name="C:\Users\ProBook\Desktop\userAuthentication-project\user_auth" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.delete me please">
+  <component name="RunManager" selected="Django server.userAuthentication-project">
     <configuration name="delete me please" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="userAuthentication-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,7 +230,9 @@
       <workItem from="1588810610952" duration="1518000" />
       <workItem from="1588941315537" duration="8905000" />
       <workItem from="1589026215107" duration="5841000" />
-      <workItem from="1589421638714" duration="10066000" />
+      <workItem from="1589421638714" duration="12288000" />
+      <workItem from="1589548536114" duration="5553000" />
+      <workItem from="1590265195968" duration="4015000" />
     </task>
     <servers />
   </component>
@@ -225,10 +265,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="120" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1589430706908" />
-    <state x="463" y="128" key="FileChooserDialogImpl" timestamp="1588853476179">
+    <state x="463" y="128" key="FileChooserDialogImpl" timestamp="1589435615022">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="463" y="128" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1588853476179" />
+    <state x="463" y="128" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1589435615022" />
     <state width="1323" height="274" key="GridCell.Tab.0.bottom" timestamp="1588853477824">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
