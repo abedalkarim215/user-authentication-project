@@ -11,12 +11,12 @@ import random
 
 
 def home(request) :
-    user = get_object_or_404(User, pk=request.user.id)
-    userProfile = get_object_or_404(UserProfile, user=user)
+    # user = get_object_or_404(User, pk=request.user.id)
+    # userProfile = get_object_or_404(UserProfile, user=user)
     context = {
         'title' : 'Home',
-        'user_': user,
-        'user_profile_': userProfile,
+        # 'user_': user,
+        # 'user_profile_': userProfile,
     }
     return render(request,'user_auth/home.html',context)
 
@@ -67,22 +67,64 @@ def sign_up_user(request) :
             user_password1 = request.POST['password1']
             user_password2 = request.POST['password2']
 
-            if (user_first_name=="") or (user_last_name=="") or (user_username=="") or (user_email=="") or (user_password1=="") :
-                messages.info(request, 'please full the blank inputs')
-                return redirect('home')
+            # if (user_first_name=="") or (user_last_name=="") or (user_username=="") or (user_email=="") or (user_password1=="") :
+            #     messages.info(request, 'please full the blank inputs')
+            #     return redirect('home')
+            #
+            # elif  User.objects.filter(username=user_username).exists():
+            #     messages.info(request, 'username is taken, try another one')
+            #     return redirect('home')
+            #
+            #
+            # elif User.objects.filter(email= user_email).exists() :
+            #     messages.info(request, 'email is taken, try another one')
+            #     return redirect('home')
+            #
+            # elif user_password1 != user_password2 :
+            #     messages.info(request, 'password not matching')
+            #     return redirect('home')
 
-            elif  User.objects.filter(username=user_username).exists():
-                messages.info(request, 'username is taken, try another one')
-                return redirect('home')
+            message = ''
+            if user_username == '':
+                message += 'please full the input of the Username<br>'
+            if user_email == '':
+                message += 'please full the input of the user_email<br>'
 
+            if (user_username) == '' or (user_email == ''):
+                context = {
+                    'user_first_name': user_first_name,
+                    'user_last_name': user_last_name,
+                    'user_username': user_username,
+                    'user_email': user_email,
+                    'user_password1': user_password1,
+                    # 'user_gender': user_gender,
+                    'is_signup': True,
+                }
+                messages.info(request, message)
+                return render(request, 'user_auth/home.html', context)
 
-            elif User.objects.filter(email= user_email).exists() :
-                messages.info(request, 'email is taken, try another one')
-                return redirect('home')
+            username_is_taken = User.objects.filter(username=user_username).exists()
+            email_is_taken = User.objects.filter(email=user_email).exists()
+            passwords_didnt_match = user_password1 != user_password2
+            if username_is_taken:
+                message += 'Username is taken, try another one<br>'
+            if email_is_taken:
+                message += 'Email is taken, try another one<br>'
+            if passwords_didnt_match:
+                message += 'Passwords didnt match<br>'
 
-            elif user_password1 != user_password2 :
-                messages.info(request, 'password not matching')
-                return redirect('home')
+            if username_is_taken or email_is_taken or passwords_didnt_match:
+                messages.info(request, message)
+                context = {
+                    'user_first_name': user_first_name,
+                    'user_last_name': user_last_name,
+                    'user_username': user_username,
+                    'user_email': user_email,
+                    'user_password1': user_password1,
+                    # 'user_gender': user_gender,
+                    'is_signup': True,
+                }
+                return render(request, 'user_auth/home.html', context)
 
 
             else :
@@ -105,12 +147,21 @@ def delete_account(request) :
     user = get_object_or_404(User , pk=request.user.id)
     if request.method == "POST" :
         text_confirm  = user.username+"-delete my account"
-        if (request.POST['confirmation'] == text_confirm) and (user.check_password(request.POST['password_for_deleting_account'])) :
+        boolean_confirmation = request.POST['confirmation'] == text_confirm
+        boolean_password = user.check_password(request.POST['password_for_deleting_account'])
+        if boolean_confirmation and boolean_password:
             logout(request)
             user.delete()
-            messages.info(request,"Your account was deleted sucssfully")
-        else :
-            messages.info(request, "the opreation was not sucssfully")
+            messages.info(request, "<span style=\"color:green\">Your account was deleted sucssfully</span>")
+        elif boolean_password and (not boolean_confirmation):
+            messages.info(request,
+                          "<span style=\"color:red\">The opreation was not sucssfully , <br> because the TEXT that you entered didn't match</span>")
+        elif boolean_confirmation and (not boolean_password):
+            messages.info(request,
+                          "<span style=\"color:red\">The opreation was not sucssfully , <br> because the passsword that you entered is incorrect</span>")
+        else:
+            messages.info(request,
+                          "<span style=\"color:red\">The opreation was not sucssfully , <br> because the passsword that you entered is incorrect <br>and the TEXT that you entered didn't match</span>")
         return redirect('home')
 
 
